@@ -1,0 +1,27 @@
+#' Expired gas data.
+#'
+#' Study Purpose: To understand the physiological response of an athlete during cycling. The data helps in evaluating different aspects like aerobic capacity, respiratory efficiency, fuel utilization, and overall exercise performance.
+#'
+#' Synthetic Data: Due to the confidential nature of the original study data, it is not feasible to include it in its unaltered form within the speedsR package. Instead, what is provided is a synthetic version of this dataset, created using the 'synthpop' R package. This synthetic dataset mirrors the structure and statistical properties of the original records, ensuring the privacy and confidentiality of the individuals involved.
+#' 
+#' @format A tibble with 380 rows and 16 variables:
+#' \describe{
+#'   \item{TIME}{chr Time. Unit: minutes.}
+#'   \item{TIME_seconds}{dbl Time. Unit: seconds.} 
+#'   \item{VE}{dbl Tidal volume of expired air per minute. Unit: L/min.}
+#'   \item{Vt}{dbl Tidal volume. Unit: L.}
+#'   \item{RR}{dbl Respiratory rate. Unit: BPM.}
+#'   \item{VO2}{dbl Volume of oxygen consumed per minute. Unit: L/min.}
+#'   \item{VO2_kg}{dbl Volume of oxygen consumed per kilogram of body weight per minute. Unit: ml/kg/min.}
+#'   \item{VCO2}{dbl Volume of carbon dioxide produced per minute. Unit: L/min.}
+#'   \item{RER}{dbl Respiratory Exchange Ratio. Unit: N/A.}
+#'   \item{VE1}{dbl Ventilatory equivalent for oxygen. Unit: BT/ST.}
+#'   \item{VE2}{dbl Ventilatory equivalent for carbon dioxide. Unit: BT/ST.}
+#'   \item{FEO2}{dbl Fraction of expired oxygen. Unit: %.}
+#'   \item{FECO2}{dbl Fraction of expired carbon dioxide. Unit: %.}
+#'   \item{WorkR}{dbl Work Rate. Unit: W.}
+#'   \item{PetCO2}{dbl Partial pressure of end-tidal carbon dioxide. Unit: mmHg.}
+#'   \item{PetO2}{dbl Partial pressure of end-tidal oxygen. Unit: mmHg.}
+#' }
+#' @source Exercise Physiology Lab at La Trobe University, Melbourne, Australia
+"ParvoSynth"
