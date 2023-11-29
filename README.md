@@ -1,3 +1,2 @@
-# speedsR
-R data package to host a repository of sports-specific datasets for the AIS 'SPEEDS' project.
-This package can be downloaded from the AIS 'SPEEDS' GitHub repository and loaded into your IDE as a regular library.
+# speedsR data package
+This R data package provides a collection of sports-specific datasets as part of the Australian Institute of Sport 'SPEEDS' project. The 'speedsR' package facilitates easy access to these datasets, enabling analysis and research within a sports science context. Available for download from the AIS 'SPEEDS' GitHub repository, it integrates seamlessly as a library in any R-based IDE.
