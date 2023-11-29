@@ -1,0 +1,24 @@
+#' Endurance athlete hematological variables pre vs. post moderate altitude exposure.
+#'
+#' Study Purpose: To investigate the influence of daily oral iron supplementation on changes in hemoglobin mass (Hbmass) and iron parameters after 2–4 weeks of moderate altitude exposure.
+#'
+#' Methods: Hematological data collected from 178 athletes (98 males, 80 females) exposed to moderate altitude (1,350–3,000 m) were analysed using linear regression to determine how altitude exposure combined with oral iron supplementation influenced Hbmass, total iron incorporation (TII) and blood iron parameters (ferritin and transferrin saturation (TSAT)).
+#'
+#' Synthetic Data: Due to the confidential nature of the original study data, which consists of personal medical records, it is not feasible to include it in its unaltered form within the speedsR package. Instead, what is provided is a synthetic version of this dataset, created using the 'synthpop' R package. This synthetic dataset mirrors the structure and statistical properties of the original records, ensuring the privacy and confidentiality of the individuals involved.
+#' 
+#' @format A tibble with 357 rows and 11 variables:
+#' \describe{
+#'   \item{ID}{int Participant ID}
+#'   \item{TIME}{fct Time. Levels: 0 = Pre-exposure; 1 = Post-exposure.} 
+#'   \item{SEX}{fct Sex. Levels: 0 = Female, 1 = Male.}
+#'   \item{SUP_DOSE}{fct Oral iron supplement dose. Unit: Milligrams (mg). Levels: 0 = None; 1 = 105 mg; 2 = 210 mg.}
+#'   \item{BM}{dbl Body mass. Unit: Kilograms (kg)}
+#'   \item{FER}{dbl Ferritin. Unit: Micrograms per litre (ug/L). Reference Range (RACP): F = 20-220 ug/L; M: 30-620 ug/L.}
+#'   \item{FE}{dbl Iron. Unit: Micrograms per litre (ug/L).}
+#'   \item{TSAT}{dbl Transferrin Saturation. Unit: Percentage (%).}
+#'   \item{TRANS}{dbl Transferrin. Unit: Grams per litre (g/L).}
+#'   \item{AHBM}{dbl Absolute Hbmass. Unit: g.}
+#'   \item{RHBM}{dbl Relative Hbmass: Computed as AHBM / BM. Unit: g/kg.}
+#' }
+#' @source \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0135120}
+"HbmassSynth"
