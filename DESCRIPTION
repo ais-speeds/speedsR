@@ -1,15 +1,13 @@
 Package: speedsR
-Title: What the Package Does (One Line, Title Case)
+Title: Data Package With Sports-Specific Datasets For The AIS 'SPEEDS' Project
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Authors@R: person(given = "Sports Data Analytics Team", family = "La Trobe University", email = "ais.speeds@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "https://orcid.org/0000-0001-6760-6670"))
+Description: Provides a collection of sports-specific datasets as part of the Australian Institute of Sport 'SPEEDS' project. The 'speedsR' package facilitates easy access to these datasets, enabling analysis and research within a sports science context. Available for download from the AIS 'SPEEDS' GitHub repository, it integrates seamlessly as a library in any R-based IDE.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-Depends: 
-    R (>= 2.10)
+Depends: R (>= 2.10)
 LazyData: true
+Imports: 
+    tibble
